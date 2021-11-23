@@ -4,8 +4,9 @@ namespace Ismareno\WeightConversions;
 
 class Weight
 {
-    public static function kilograms(float $kilograms): self
-    {
+    public static function kilograms(float $kilograms): self    {
+        $mayArray = array('1','2','3');
+
         return new static($kilograms);
     }
 
