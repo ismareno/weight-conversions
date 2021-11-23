@@ -1,7 +1,7 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace Ismareno\WeightConversions;
 
-class SkeletonClass
+class WeightConversionsClass
 {
 }

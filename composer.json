@@ -1,16 +1,16 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "ismareno/weight-conversions",
+    "description": "Weight conversions in PHP",
     "keywords": [
-        ":vendor_name",
-        ":package_slug"
+        "ismareno",
+        "weight-conversions"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/ismareno/weight-conversions",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Ismael Renovell",
+            "email": "ismaelrenovell@gmail.com",
             "role": "Developer"
         }
     ],
@@ -24,12 +24,12 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src"
+            "Ismareno\\WeightConversions\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Ismareno\\WeightConversions\\Tests\\": "tests"
         }
     },
     "scripts": {
