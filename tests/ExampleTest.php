@@ -1,5 +1,5 @@
 <?php
 
-it('can test', function () {
+it('can convert kilograms to pounds correctly', function () {
     expect(true)->toBeTrue();
 });
